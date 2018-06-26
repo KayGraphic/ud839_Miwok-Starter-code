@@ -8,12 +8,12 @@ public class Word {
     private String mMiwokTranslation;
     private int mImageResourceId = NO_IMAGE_STATE;
     //the m stands for "member variable"
-
+//constructor for the Activity that doesn't have an IMG associated with it.
     public Word(String defaultTranslation, String miwokTranslation) {
         mdefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
     }
-
+//constructor for activities that have an IMG associated with it.
     public Word(String defaultTranslation, String miwokTranslation, int ImageResourceId) {
         mdefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
